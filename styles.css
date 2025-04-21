@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.input{
+    display: flex;
+    margin-block: 5%;
+    justify-content: center;
+}
+
+.dataContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    margin-inline: 5%;
+    grid-template-columns: repeat(15 , 20%);
+    overflow: auto;
+}
+
+.card{
+    padding: 5%;
+    background-color: aqua;
+    border-radius: 15px;
+}
